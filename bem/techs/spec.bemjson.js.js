@@ -8,7 +8,7 @@ exports.techMixin = {
     getTemplate : function() {
         return [
             '([',
-            '"<!DOCTYPE html>",',
+            '{"html": "<!DOCTYPE html>", "tag": false},',
             '{"tag": "html", "content": [',
             '  {"tag": "head", "content": [',
             '    {"tag": "meta", "attrs": {"charset": "utf-8"}},',
